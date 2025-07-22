@@ -9,17 +9,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
     <!--Nav bar and header section start here-->
-    <header class="nav-banner-parent raleway">
+    <header class="nav-banner-parent">
         <nav class="nav-bar">
-            <h1>LOGO</h1>
-            <button class="shared-button">Sign Up</button>
+            <h1 class="inter">LOGO</h1>
+            <button class="shared-button raleway">Sign Up</button>
         </nav>
-        <section class="banner">
+        <section class="banner raleway">
             <h2>Cool Dark UI Template for <br> Webflow Agencies!</h2>
             <button class="shared-button">Stay Focused</button>
         </section>
@@ -37,9 +42,9 @@
         </section>
         <!--Action section end here-->
         <!--joined section start here-->
-        <section class="joined-parent raleway">
-            <h3>Joined Thousands of Productive Users</h1>
-                <div class="join-card-container">
+        <section class="joined-parent">
+            <h3 class="inter">Joined Thousands of Productive Users</h1>
+                <div class="join-card-container raleway">
                     <div class="join-card">
                         <h1>50K</h1>
                         <p>Active Users</p>
@@ -56,9 +61,9 @@
         </section>
         <!--joined section end here-->
         <!--Users section start here-->
-        <section class="user-parent raleway">
-            <h2>What our users say</h2>
-            <div class="user-card-container">
+        <section class="user-parent">
+            <h2 class="raleway">What our users say</h2>
+            <div class="user-card-container inter">
                 <div class="user-card">
                     <div class="user-star-container">
                         <img src="Assets/icon-star.png" alt="">
@@ -123,10 +128,10 @@
         </section>
         <!--Users section end here-->
         <!--Ready section start here-->
-        <section class="ready-parent raleway">
-            <h1>Ready to focus better</h1>
-            <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-            <button class="shared-button">Ger Started Free</button>
+        <section class="ready-parent">
+            <h1 class="raleway">Ready to focus better</h1>
+            <p class="inter">This template instantly leveled up our presence.” – Studio Vertex</p>
+            <button class="shared-button raleway">Ger Started Free</button>
             <br>
             <img src="Assets/wc-big.png" alt="">
 
@@ -134,22 +139,36 @@
         <!--Ready section end here-->
         <!--Contact section start here-->
         <section class="contact-parent">
-            <h1>Let’s Get in <br> Touch</h1>
-            <div class="contact-form">
-                <label for="">Email</label>
-                <input class="input-field" type="email" placeholder="example@email.com" name="" id="">
-                <label for="">Name</label>
-                <input class="input-field" type="text" placeholder="full name" name="" id="">
-                <label for="">Message</label>
-                <input class="message-field" type="text" placeholder="write your message...." name="" id="">
-                <button class="shared-button">Get in Touch</button>
+            <h1 class="raleway">Let’s Get in <br> Touch</h1>
+            <div class="contact-form ">
+                <div class="inter">
+                    <label for="">Email</label>
+                    <input class="input-field" type="email" placeholder="example@email.com" name="" id="">
+                    <label for="">Name</label>
+                    <input class="input-field" type="text" placeholder="full name" name="" id="">
+                    <label for="">Message</label>
+                    <input class="message-field" type="text" placeholder="write your message...." name="" id="">
+                </div>
+                <button class="shared-button raleway">Get in Touch</button>
             </div>
         </section>
         <!--Contact section end here-->
     </main>
-    <footer>
-        
+    <!--Footer section start here-->
+    <footer class="footer-parent inter">
+        <h1>LOGO</h1>
+        <p>Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can
+            bring your vision to life.</p>
+        <div class="footer-icons">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">How it Works</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </div>
     </footer>
+    <!--Footer section end here-->
 </body>
 
 </html>
