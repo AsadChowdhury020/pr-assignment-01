@@ -62,6 +62,7 @@
     height: 328px;
     width: 1140px;
     margin: 0px auto;
+    margin-bottom: 137px;
 }
 .action-text{
     height: 203px;
@@ -87,5 +88,128 @@
 .action-parent img{
     width: 403px;
     height: 328px;
+    border-radius: 48px;
+}
+/*Joined section styles*/
+.joined-parent{
+    height: 328px;
+    width: 1140px;
+    margin: 0px auto;
+    background: #4E47FF1A;
+    border-radius: 24px;
+    margin-bottom: 137px;
+}
+.joined-parent h3{
+    font-size: 38px;
+    font-weight: 700px;
+    color: #252432;
+    text-align: center;
+    padding-top: 50px;
+}
+.join-card-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.join-card{
+    height: 97px;
+    width: 162px;
+    padding-top: 0px;
+}
+.join-card h1{
+    font-size: 80px;
+    font-weight: 700px;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+.join-card p{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #00000080;
+    margin-top: 0px;
+}
+/*Users section styles*/
+.user-parent{
+    height: 342px;
+    width: 1140px;
+    margin: 0px auto;
+
+}
+.user-parent h2{
+    font-size: 42px;
+    font-weight: 700px;
+    text-align: center;
+}
+.user-card-container{
+        display: flex;
+        justify-content: space-between;
+}
+.user-card {
+    width: 366px;
+    height: 243px;
+    padding: 24px;
+    color: #00000080;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 3px 0px;;
+}
+.user-text-container h3{
+    font-size: 24px;
+    font-weight: 600px;
+    color: #1E1E1E;
+}
+.user-text-container p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #1E1E1E;
+}
+.user-text-container img{
+    font-size: 24px;
+    font-weight: 600px;
+
+}
+.user-text-image-container{
+    display: flex;
+    gap: 10px;
+
+}
+.user-text-image-text-container h6{
+    font-size: 16px;
+    font-weight: 600px;
+    columns: #757575;
+    margin: 0px;
+}
+.user-text-image-text-container p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #B3B3B3;
+    margin: 0px;
+}
+/*Ready section styles*/
+.ready-parent{
+    height: 697px;
+    width: 1140px;
+    border-radius: 14px;
+    background: #FFFFFF;
+    margin: 0px auto;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    text-align: center;
+}
+.ready-parent h1{
+    font-size: 50px;
+    font-weight: 700px;
+}
+.ready-parent p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #00000080;
+}
+.ready-parent button{
+    width: 195px;
+    height: 48px;
+}
+.ready-parent img{
+    width: 840px;
+    height: 365px;
     border-radius: 48px;
 }
