@@ -55,3 +55,37 @@
     height: 48px;
     width: 172px;
 }
+/*Action section styles*/
+.action-parent{
+    display: flex;
+    justify-content: space-between;
+    height: 328px;
+    width: 1140px;
+    margin: 0px auto;
+}
+.action-text{
+    height: 203px;
+    width: 517px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+.action-parent h2{
+    font-size: 42px;
+    font-weight: 700px;
+    columns: #252432;
+}
+.action-parent p{
+    font-size: 24px;
+    font-weight: 400px;
+    columns: #252432;
+}
+.action-parent button{
+    height: 48px;
+    width: 229px;
+}
+.action-parent img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
