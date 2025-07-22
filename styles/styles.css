@@ -1,8 +1,9 @@
 /*Shared styles*/
-*{
+* {
     box-sizing: border-box;
 }
-.shared-button{
+
+.shared-button {
     border-radius: 10px;
     background-color: #4E47FF;
     color: #FFFFFF;
@@ -10,29 +11,35 @@
     font-size: 16px;
     font-weight: 700px;
 }
+
 .shared-button:hover {
     background-color: rgba(1, 93, 1, 0.881)
 }
+
 .shared-button:active {
-  background-color: rgba(1, 93, 1, 0.881);
-  transform: translateY(5px);
+    background-color: rgba(1, 93, 1, 0.881);
+    transform: translateY(5px);
 }
-.raleway{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
 }
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
+
 /*Nav bar styles*/
-.nav-banner-parent{
+.nav-banner-parent {
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
     width: 1440px;
     margin: 0px auto;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
@@ -40,35 +47,41 @@
     padding-left: 150px;
     padding-right: 150px;
 }
-.nav-bar h1{
+
+.nav-bar h1 {
     font-size: 34px;
     font-weight: black;
     color: #4E47FF;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.nav-bar button{
+
+.nav-bar button {
     height: 48px;
     width: 132px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 /*Banner styles*/
-.banner{
+.banner {
     text-align: center;
     background: rgb(245, 248, 255);
 }
-.banner h2{
+
+.banner h2 {
     font-size: 65px;
     font-weight: 700px;
     color: #252432;
 }
-.banner button{
+
+.banner button {
     height: 48px;
     width: 172px;
 }
+
 /*Action section styles*/
-.action-parent{
+.action-parent {
     display: flex;
     justify-content: space-between;
     height: 328px;
@@ -77,34 +90,40 @@
     margin-bottom: 137px;
     background: rgb(245, 248, 255);
 }
-.action-text{
+
+.action-text {
     height: 203px;
     width: 517px;
     padding-top: 35px;
     padding-bottom: 35px;
 
 }
-.action-parent h2{
+
+.action-parent h2 {
     font-size: 42px;
     font-weight: 700px;
     columns: #252432;
 }
-.action-parent p{
+
+.action-parent p {
     font-size: 24px;
     font-weight: 400px;
     columns: #252432;
 }
-.action-parent button{
+
+.action-parent button {
     height: 48px;
     width: 229px;
 }
-.action-parent img{
+
+.action-parent img {
     width: 403px;
     height: 328px;
     border-radius: 48px;
 }
+
 /*Joined section styles*/
-.joined-parent{
+.joined-parent {
     height: 328px;
     width: 1140px;
     margin: 0px auto;
@@ -113,93 +132,110 @@
     margin-bottom: 137px;
     background: rgba(78, 71, 255, 0.1);
 }
-.joined-parent h3{
+
+.joined-parent h3 {
     font-size: 38px;
     font-weight: 700px;
     color: #252432;
     text-align: center;
     padding-top: 50px;
 }
-.join-card-container{
+
+.join-card-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.join-card{
+
+.join-card {
     height: 97px;
     width: 162px;
     padding-top: 0px;
 }
-.join-card h1{
+
+.join-card h1 {
     font-size: 80px;
     font-weight: 700px;
     color: #4E47FF;
     margin-bottom: 0px;
 }
-.join-card p{
+
+.join-card p {
     font-size: 20px;
     font-weight: 400px;
     color: #00000080;
     margin-top: 0px;
 }
+
 /*Users section styles*/
-.user-parent{
+.user-parent {
     height: 342px;
     width: 1140px;
     margin: 0px auto;
     background: rgb(245, 248, 255);
 }
-.user-parent h2{
+
+.user-parent h2 {
     font-size: 42px;
     font-weight: 700px;
     text-align: center;
 }
-.user-card-container{
-        display: flex;
-        justify-content: space-between;
+
+.user-card-container {
+    display: flex;
+    justify-content: space-between;
 }
+
 .user-card {
     width: 366px;
     height: 243px;
     padding: 24px;
     color: #00000080;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 3px 0px;;
+    box-shadow: 0px 0px 3px 0px;
+    ;
 }
-.user-text-container h3{
+
+.user-text-container h3 {
     font-size: 24px;
     font-weight: 600px;
     color: #1E1E1E;
 }
-.user-text-container p{
+
+.user-text-container p {
     font-size: 16px;
     font-weight: 400px;
     color: #1E1E1E;
 }
-.user-text-container img{
+
+.user-text-container img {
     font-size: 24px;
     font-weight: 600px;
 
 }
-.user-text-image-container{
+
+.user-text-image-container {
     display: flex;
     gap: 10px;
 
 }
-.user-text-image-text-container h6{
+
+.user-text-image-text-container h6 {
     font-size: 16px;
     font-weight: 600px;
     columns: #757575;
     margin: 0px;
 }
-.user-text-image-text-container p{
+
+.user-text-image-text-container p {
     font-size: 16px;
     font-weight: 400px;
     color: #B3B3B3;
     margin: 0px;
 }
+
 /*Ready section styles*/
-.ready-parent{
+.ready-parent {
     height: 697px;
     width: 1140px;
     border-radius: 14px;
@@ -209,50 +245,59 @@
     padding-bottom: 71px;
     text-align: center;
 }
-.ready-parent h1{
+
+.ready-parent h1 {
     font-size: 50px;
     font-weight: 700px;
 }
-.ready-parent p{
+
+.ready-parent p {
     font-size: 16px;
     font-weight: 400px;
     color: #00000080;
 }
-.ready-parent button{
+
+.ready-parent button {
     width: 195px;
     height: 48px;
     margin-bottom: 20px;
 }
-.ready-parent img{
+
+.ready-parent img {
     width: 840px;
     height: 365px;
     border-radius: 48px;
 }
+
 /*Contact section styles*/
-.contact-parent{
+.contact-parent {
     height: 632px;
     width: 1140px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
-   background: rgb(245, 248, 255);
+    background: rgb(245, 248, 255);
 }
-.contact-parent h1{
+
+.contact-parent h1 {
     font-size: 97px;
     font-weight: 700px;
     margin-top: 200px;
     margin-bottom: 200px;
 }
-.contact-form{
+
+.contact-form {
     padding-top: 85px;
     padding-bottom: 71px;
 }
-.contact-form label{
+
+.contact-form label {
     font-size: 18px;
     font-weight: 500px;
     display: block;
 }
-.input-field{
+
+.input-field {
     height: 70px;
     width: 497px;
     border: none;
@@ -262,8 +307,9 @@
     font-weight: 400px;
     padding: 20px 32px;
     display: block;
-} 
-.message-field{
+}
+
+.message-field {
     height: 135px;
     width: 497px;
     border: none;
@@ -274,44 +320,50 @@
     padding: 20px 32px;
     display: block;
 }
-.contact-form button{
+
+.contact-form button {
     height: 70px;
     width: 497px;
     display: block;
     text-align: center;
 }
+
 /*Footer section styles*/
-.footer-parent{
+.footer-parent {
     text-align: center;
 }
-.footer-parent h1{
+
+.footer-parent h1 {
     font-size: 100px;
     font-weight: 700px;
     color: #4E47FF;
     margin-bottom: 0px;
 }
-.footer-parent p{
+
+.footer-parent p {
     font-size: 16px;
     font-weight: 400px;
     color: #8987A1;
     margin-top: 0px;
 }
-.footer-parent ul li{
-    font-size: 16px;
-    font-weight: 400px;
-    color: #8987A1;
-    margin-top: 0px;
-    list-style: none;
-    margin-right: 48px;
-}
-.footer-icons ul{
+
+.footer-icons {
     display: flex;
-    margin-left: 700px;
+    justify-content: center;
+    align-items: flex-start;
 }
-.footer-icons a{
+
+.footer-icons ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-icons li a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 400px;
     color: #8987A1;
 }
-
