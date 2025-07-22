@@ -45,6 +45,7 @@
 /*Banner styles*/
 .banner{
     text-align: center;
+    background: rgb(245, 248, 255);
 }
 .banner h2{
     font-size: 65px;
@@ -63,6 +64,7 @@
     width: 1140px;
     margin: 0px auto;
     margin-bottom: 137px;
+    background: rgb(245, 248, 255);
 }
 .action-text{
     height: 203px;
@@ -98,6 +100,7 @@
     background: #4E47FF1A;
     border-radius: 24px;
     margin-bottom: 137px;
+    background: rgba(78, 71, 255, 0.1);
 }
 .joined-parent h3{
     font-size: 38px;
@@ -133,7 +136,7 @@
     height: 342px;
     width: 1140px;
     margin: 0px auto;
-
+    background: rgb(245, 248, 255);
 }
 .user-parent h2{
     font-size: 42px;
@@ -189,7 +192,7 @@
     height: 697px;
     width: 1140px;
     border-radius: 14px;
-    background: #FFFFFF;
+    background: rgb(245, 248, 255);
     margin: 0px auto;
     padding-top: 71px;
     padding-bottom: 71px;
@@ -207,9 +210,62 @@
 .ready-parent button{
     width: 195px;
     height: 48px;
+    margin-bottom: 20px;
 }
 .ready-parent img{
     width: 840px;
     height: 365px;
     border-radius: 48px;
+}
+/*Contact section styles*/
+.contact-parent{
+    height: 632px;
+    width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+   background: rgb(245, 248, 255);
+}
+.contact-parent h1{
+    font-size: 97px;
+    font-weight: 700px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.contact-form{
+    padding-top: 85px;
+    padding-bottom: 71px;
+}
+.contact-form label{
+    font-size: 18px;
+    font-weight: 500px;
+    display: block;
+}
+.input-field{
+    height: 70px;
+    width: 497px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 20px 32px;
+    display: block;
+} 
+.message-field{
+    height: 135px;
+    width: 497px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 20px 32px;
+    display: block;
+}
+.contact-form button{
+    height: 70px;
+    width: 497px;
+    display: block;
+    text-align: center;
 }
